@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: hero_block
+theme: my_theme
+region: hero
+provider: block_content
+settings:
+  id: ''
+  label: 'Hero Block'
+  provider: block_content
+  label_display: '0'
+  view_mode: 'full'
+  status: true
+plugin: 'block_content'
+visibility: { }

@@ -1,0 +1,9 @@
+header-styling:
+  css:
+    theme:
+      css/site-header.css: {}
+
+global-styling:
+  css:
+    theme:
+      css/styles.css: {}  

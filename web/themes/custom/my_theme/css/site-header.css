@@ -1,0 +1,53 @@
+.site-header__inner, .header-nav {
+    background-color: #be9d9e;
+   
+}
+
+.site-branding {
+    background: #be9d9e;
+}
+
+
+.site-header__initial{
+    display: none;
+}
+.site-footer, body:not(.is-always-mobile-nav) .site-footer{
+    background: #be9d9e;
+    border-inline-start: none;
+}
+.social-bar{
+    background-color:#c0c2cfe8;
+}
+
+.layout-main-wrapper{
+    background-image:url(/sites/default/files/2025-01/bg.jpg); 
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.node__meta{
+    color: hsl(220.21deg 91.06% 45.61% / 96%);;
+}
+body{
+    background-image: none;
+}
+.block__title{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position:relative;
+}
+
+
+

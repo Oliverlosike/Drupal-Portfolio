@@ -1,0 +1,29 @@
+<html lang="{{ language.getId }}">
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
+  <body{{ attributes.addClass('body-class') }}>
+    {% if page.hero %}
+      <section class="hero">
+        {{ page.hero }}
+      </section>
+    {% endif %}
+    <header>
+      {{ page.header }}
+    </header>
+    <nav>
+      {{ page.primary_menu }}
+    </nav>
+    <main>
+      {{ page.content }}
+    </main>
+    <footer>
+     {{ page.footer }}
+    </footer>
+    <js-bottom-placeholder token="{{ placeholder_token }}">
+  </body>
+</html>
+

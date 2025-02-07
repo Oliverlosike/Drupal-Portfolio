@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - block_content
+field_name: field_hero_image
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+  handler: default
+  handler_settings:
+    target_bundles:
+      image: image
